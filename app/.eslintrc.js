@@ -1,7 +1,8 @@
 module.exports = {
     "env": {
         "browser": true,
-        "node": true
+        "node": true,
+        "es6": true
     },
     "globals": {
       "exports": false,
@@ -59,7 +60,7 @@ module.exports = {
         "keyword-spacing": "error",
         "linebreak-style": [
             "error",
-            "unix"
+            "windows"
         ],
         "lines-around-comment": "error",
         "max-depth": "error",
